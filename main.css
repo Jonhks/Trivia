@@ -1,0 +1,21 @@
+body{
+  color: white;
+  background: black;
+}
+
+header {
+  text-align: center;
+  font-size: 25px;
+}
+
+h3{
+  font-size: 15px;
+}
+
+.marcador {
+  border: 1px solid white;
+  display: block;
+  height: 200px;
+  width: 48%;
+  margin-bottom: 10px;
+}
