@@ -49,9 +49,8 @@ if (iniciarPartida === 2) { //CASO 1; EN EL QUE EL USUARIO NO QUIERA JUGAR
     respuestasIncorrectas.innerHTML += "<br> 2.¿En que sede estamos? <br> <strong>Respuesta correcta" +
       ":</strong> CDMX";
   }
-}
-
-// TERCER PREGUNTA 
+  
+  // TERCER PREGUNTA 
 
 var tercerPregunta = prompt("3.¿Cual es la raíz cuadrada de 45676? \n A. 213.71944226 \n B. 90.4657 \n C. 345.89078");
 if(tercerPregunta ==  "A") {
@@ -62,3 +61,6 @@ if(tercerPregunta ==  "A") {
     respuestasIncorrectas.innerHTML += "3.¿Cual es la raíz cuadrada de 45676? <br> <strong> Respuesta correcta" + 
     ":</strong>  213.71944226";
   } 
+}
+
+
